@@ -15,10 +15,10 @@
                 <a href="index.php">home</a>
             </li>
             <li>
-                <a href="recepten.php">recepten</a>
+                <a href="firstLink.php">firstLink</a>
             </li>
             <li>
-                <a href="specials.php">specials</a>
+                <a href="secondLink.php">secondLink</a>
             </li>
         </ul>
     </nav>
