@@ -9,19 +9,16 @@
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li>
-                <a href="index.php">home</a>
-            </li>
-            <li>
-                <a href="recepten.php">recepten</a>
-            </li>
-            <li>
-                <a href="specials.php">specials</a>
-            </li>
-        </ul>
-    </nav>
+    <footer>
+        <div class="container">
+            <div class="copyright_tekst">
+                <p>
+                    &copy; 2023 My Website. All Rights Reserved
+                </p>
+                <p>..</p>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
