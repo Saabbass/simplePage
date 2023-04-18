@@ -2,8 +2,9 @@
 *{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
-    /* margin 0 0 is ervoor om de browser de automatische margin waarde te laten verranderen */
+    /* margin 0 0 is ervoor om de browser de automatische margin waarde te laten verranderen naar 0 */
     margin: 0 0;
+    /* padding 0 0 is ervoor om de browser de automatische padding waarde te laten verranderen naar 0 */
     padding: 0 0;
     box-sizing: border-box;
 }
@@ -15,8 +16,6 @@ body{
 .container{
     margin: 0 auto;
     width: 90%;
-
-    /* border: 2px solid rgb(255, 140, 0); */
 }
 
 .page_height{
@@ -58,23 +57,17 @@ header{
     margin: 8px;
     border: 1px solid goldenrod;
     border-radius: 50px;
-
-    /* mix-blend-mode:; */
 }
 
 .titel{
     align-self: center;
     color: rgb(204, 204, 204);
-
-    /* border: 2px solid rgb(255, 140, 0); */
 }
 
 /* nav.php css*/
 nav{
     display: flex;
     justify-content:flex-end;
-    
-    /* border: 2px solid rgb(255, 140, 0); */
 }
 
 nav ul{
@@ -82,9 +75,6 @@ nav ul{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content:center;
-
-    
-    /* border: 2px solid rgb(255, 140, 0); */
 }
 
 nav ul li{
@@ -134,8 +124,6 @@ nav ul a:hover{
     max-width: 50rem;
     mix-blend-mode: multiply;
     margin: 10px;
-
-    /* border: 2px solid goldenrod; */
 }
 
 @media (max-width: 50rem){
@@ -154,10 +142,8 @@ nav ul a:hover{
 .recept_catagory{
     padding: 0 5vw;
     font-size: 30px;
-    /* font-weight: 500; */
     margin-bottom: 40px;
     text-transform: capitalize;
-
     border-bottom: 2px solid goldenrod;
 }
 
@@ -183,7 +169,6 @@ nav ul a:hover{
 .card{
     flex: 0 0 auto;
     width: 311px;
-    /* border-radius: 25px; */
     margin: 10px;
     background-color: rgb(204, 149, 0);
     border-radius: 5px;
@@ -191,11 +176,8 @@ nav ul a:hover{
 
 .card_image{
     position: relative;
-    /* object-fit: cover; */
     height: 220px;
     width: 100%;
-    /* border-radius: 50%; */
-
 }
 
 .card_img{
@@ -219,7 +201,6 @@ nav ul a:hover{
 .recept_orderd{
     padding: 0 5vw;
     font-size: 30px;
-    /* font-weight: 500; */
     margin-bottom: 40px;
     text-transform: capitalize;
     margin-top: 10px;
@@ -239,8 +220,6 @@ footer{
     min-height: 70px;
     background-color: rgb(46, 31, 65);
     margin-top: 30px;
-    
-    /* border: 2px solid rgb(77, 100, 253); */
 }
 
 .copyright_tekst{

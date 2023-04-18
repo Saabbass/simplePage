@@ -12,13 +12,12 @@
     <header>
         <div class="container">
             <div class="header_align">
-                <img class="logo" src="img/logoGimp.png" alt="foto">
+                <img class="logo" src="img/logoGimp.png" alt="Stock Image">
                 <h2 class="titel">The simple page</h2>
-    
+                <!-- Doormiddel van php het bestand nav.php invoegen om de nav in de header samen te voegen -->
                 <?php
                 include("nav.php");
                 ?>
-                
             </div>
         </div>
     </header>

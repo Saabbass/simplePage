@@ -10,10 +10,11 @@
 </head>
 
 <body>
+    <!-- Doormiddel van php het bestand header.php invoegen om de header te tonen -->
     <?php
     include("header.php");
     ?>
-
+    <!-- De pagina inrichten -->
     <div class="container">
         <div class="page_height">
             <section class="white_block">
@@ -24,9 +25,8 @@
                 </div>
                 <div class="tekst_container">
                     <div class="image_container">
-                        <img src="img/imageGimp.png" alt="">
+                        <img src="img/imageGimp.png" alt="Stock Image">
                     </div>
-
                     <div class="tekst">
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut justo eros, venenatis in lectus non, aliquam fringilla ante. Aenean ligula urna, venenatis id risus nec, lacinia vehicula lorem. Nullam in hendrerit urna. Nulla facilisi. Mauris libero nisl, mattis aliquet viverra eu, maximus efficitur neque. In hac habitasse platea dictumst. Suspendisse potenti. Cras et ligula nec turpis elementum lacinia non tempor mauris. Aliquam faucibus est non mi auctor, non venenatis diam tristique. Proin tincidunt leo interdum justo malesuada dictum eget eu magna. In id augue ac eros sagittis dignissim in ut est. Nunc ipsum tellus, lobortis ut magna et, sollicitudin commodo lorem. In pretium mollis aliquet. Nulla finibus est velit, eget lobortis tortor tincidunt nec. Integer feugiat lobortis justo in pretium. Donec sollicitudin nisl viverra mollis mattis.
@@ -39,7 +39,7 @@
             </section>
         </div>
     </div>
-
+    <!-- Doormiddel van php het bestand footer.php invoegen om de footer te tonen -->
     <?php
     include("footer.php");
     ?>
