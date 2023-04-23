@@ -9,6 +9,7 @@
 </head>
 
 <body>
+    <!-- links naar bijhorende pagina's -->
     <nav>
         <ul>
             <li>

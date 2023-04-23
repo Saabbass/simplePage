@@ -13,6 +13,7 @@
         <div class="container">
             <div class="copyright_tekst">
                 <p>
+                    <!-- een tekst met het copyrights logo -->
                     &copy; 2023 My Website. All Rights Reserved
                 </p>
                 <p>..</p>
